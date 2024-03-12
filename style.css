@@ -42,6 +42,7 @@ header{
     color: white;
     position: relative;
     z-index: 1;
+    transition: height 0.25s ease;
  
     
 }
@@ -68,6 +69,7 @@ z-index: -1;
     align-items: center;
     justify-content: space-between;
     padding: 57px 165px 0;
+    transition: padding 0.25s ease;
 }
 
 .top img{
@@ -165,6 +167,7 @@ border: 1px solid var(--greenish);
     position: relative;
     padding: 350px 0 125px;
     z-index: 0;
+    transition: all ease 0.25s ease;
 
 }
 
@@ -245,6 +248,7 @@ section.intro{
     align-items: center;
     color: white;
     margin-top:175px;
+    transition: all 0.35s ease;
 
 }
 
@@ -269,6 +273,14 @@ figure img.founder{
     z-index: 10;
     right:45px;
     top: 125px;
+    transition: all 0.35s ease;
+}
+
+.testing img{
+    width:175px;
+    position:absolute;
+    bottom:-50px;
+    right: 50px;
 }
 
 .testing h2{
@@ -490,7 +502,9 @@ right:0;
         align-self: center;
     }
 
-   
+   .testing img{
+    display: none;
+   }
 
 
 
